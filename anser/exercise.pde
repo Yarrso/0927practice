@@ -32,7 +32,7 @@ void draw()
   //Shit
   stroke(#9F5000);
   strokeWeight(10);
-  shitPosition = ( shitPosition + shitSpeed ) % ( 350 );
+  shitPosition = ( shitPosition + shitSpeed ) % ( 351 );
   shitHeadY = min( 27+shitPosition , 350);
   shitTailY= max(27, 27+shitPosition - shitLength);
   line(badGuyW/2, shitHeadY, badGuyW/2, shitTailY);
